@@ -33,7 +33,6 @@ export function EventTable() {
                     <tr>
                         <th>Nome do evento</th>
                         <th>Local</th>
-                        <th>Dia da semana</th>
                         <th>Data do registro</th>
                         <th>Horario do evento</th>
                     </tr>
@@ -41,7 +40,7 @@ export function EventTable() {
 
                 <tbody>
                     {Events.map(Events => (
-                        <tbody>
+                        <>
                         <tr>
                             <td>{Events.nomeevento}</td>
                             <td>{Events.local}</td>
@@ -70,7 +69,7 @@ export function EventTable() {
                             <span>{Events.descurtir}</span>
 
                         </tr>
-                        </tbody>
+                        </>
                         
                     ))}
                 </tbody>

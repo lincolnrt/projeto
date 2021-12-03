@@ -6,9 +6,9 @@ export function Summary() {
         <Container>
             <div>
                 <header>
-                    <p>Sessões organizadas</p>
+                    <p>Destaque da semana:</p>
                 </header>
-                <strong>52 mil sessões realizadas</strong>
+                <strong>Homem-Aranha: Sem Lar Para Voltar</strong>
             </div>
 
         </Container>

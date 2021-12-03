@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 import logoImg from '../../assets/logo3.png'
 
-export const Container = styled.header`
-    background: #f04e37;
-`;
-
 
 export const Content = styled.div`
     max-width: 1120px;

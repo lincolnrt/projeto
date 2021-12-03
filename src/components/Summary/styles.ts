@@ -8,7 +8,7 @@ export const Container = styled.div`
 
     div {
         background: var(--shape);
-        padding: 2rem;
+        padding: 2.8em;
         border-radius: 2rem;
 
         header {

@@ -32,7 +32,7 @@ export function NewTicketModel({ isOpen, onRequestClose }: NewTicketModelProps) 
         setDiaSemana('')
         setHorario('')
 
-        alert('Registro cadastrado com sucesso')
+        alert('Evento cadastrado!')
     }
 
 

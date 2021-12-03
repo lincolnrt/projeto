@@ -7,21 +7,23 @@ export const Container = styled.div`
         width: 100%;
         border-spacing: 0 0.5rem;
 
-
         th {
-            color: var(--text-body);
-            font-weight: 400;
-            padding: 1rem 2rem 2rem;
+            color: #ffffff;
+            text-shadow: 100;
+            font-weight: 1800;
+            padding: 1rem;
             text-align: left;
-            line-height: 1.5rem;
+
         }
 
         td {
-            padding: 1rem 2rem;
-            border: 0;
+            padding: 1rem 2.8rem;
+            border: 1;
             background: var(--shape);
             color: var(--text-body);
-            border-radius: 0.25rem;
+            border-radius: 1.10rem;
+
+
 
             &:first-child {
               color: var(--text-title);
@@ -34,6 +36,7 @@ export const Container = styled.div`
             &.withdraw {
               color: var(--red)
             }
+            
         }
     }
 `;

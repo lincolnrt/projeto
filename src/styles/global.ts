@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-import globalBackgroundHeader from '../assets/globalBackgroundHeader.jpg'
+import globalBackgroundHeader from '../assets/back4.jpg'
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -32,8 +32,9 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: #000000 url(${globalBackgroundHeader}) no-repeat fixed;
   -webkit-font-smoothing: antialiased;
+  background-size: 2000px;
 }
 
 
